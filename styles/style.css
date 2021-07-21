@@ -281,6 +281,34 @@ body{
   justify-content: center;
 }
 
+.jcfs{
+  justify-content: flex-start;
+}
+
+.tal{
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  width: 179px; 
+}
+
+.tal p{
+  max-width: 130px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.tal svg{
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.tac{
+  text-align: center;
+}
+
 .content__title{
   font-weight: 600;
   font-size: 14px;
