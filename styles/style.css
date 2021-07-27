@@ -101,6 +101,11 @@ body{
   border-radius: 6px;
   margin: 0 3px;
   cursor: pointer;
+  transition: 200ms ease;
+}
+
+.header__link:hover{
+  color: #8B8B8B;
 }
 
 .header__link.active{
@@ -364,11 +369,15 @@ body{
   justify-content: center;
   border-radius: 6px;
   text-align: center;
+  border: 2px solid transparent;
+  transition: 200ms ease;
 }
 
 .content__item__btn:hover{
-  color: var(--secondary-bg-color);
+  color: var(--primary-color);
+  background: #fff;
   text-decoration: none;
+  border: 2px solid #00498D;
 }
 
 .content__item__block.end{
